@@ -1,0 +1,335 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(#FAC06F,
+    #FC916E,
+    #F27545,
+    #D55466,
+    #623670,
+    #273A7D);
+}
+#Principal{
+    padding: 10px;
+    color:antiquewhite;
+    text-shadow: 2px 2px 2px #000000;
+    margin-left: 78%;
+    font-family: cursive;
+}
+li{
+    padding: 10px;
+    font-family: cursive;
+    margin-left: 35%;
+}
+#IG{
+    padding: 10px;
+    color:antiquewhite;
+    text-shadow: 2px 2px 2px #000000;
+    margin-right: 9%;
+    width: 450px;
+}
+#História{
+    padding: 10px;
+    color:antiquewhite;
+    text-shadow: 2px 2px 2px #000000;
+    font-family: cursive;
+    margin-left: 20%;
+}
+#IF{
+    width: 40%; 
+    height: 3%;
+    color:antiquewhite;
+    text-shadow: 2px 2px 2px #000000;
+    margin-right: 7%;
+    padding: 10px;
+}
+p{
+    color: #000000;
+    font-size: 150%;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+#buton1:hover {
+    box-shadow: 0 0 5px rgb(0, 0, 0), 0 0 25px rgb(114, 11, 155), 0 0 100px rgb(114, 11, 155);
+    }
+#buton1{
+    margin-left: 230%;
+    padding: 12%;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+#buton:hover {
+box-shadow: 0 0 5px rgb(0, 0, 0), 0 0 25px rgb(114, 11, 155), 0 0 100px rgb(114, 11, 155);
+}
+#buton{
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+#fofo{
+    padding: 1em;
+    background-image: url(./azuloescu.png);
+    h6{
+    text-align: center;
+    color: #ffffff; 
+    font-size: 50px;
+    background-color: #623670;
+    opacity: 0.7;  
+    width: 100%;
+}
+a{
+    color: #ffffff;
+}
+#l{
+    margin-left: 26%;
+    color: #ffffff;
+}
+h4{
+    font-family: cursive;
+    font-size: large;
+    margin-left: 2%;
+    color: #ffffff;
+}
+form{
+    margin-left: 39%;
+}
+    p{
+        color: #ffffff;
+    text-align:center;
+    font-size: 25px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+#l{
+    margin-left: 31%;
+}
+}
+
+
+
+@media screen and (max-width: 1920px) {
+    #Principal{
+        margin-left: 30%;
+    }
+    #História{
+        margin-left: 28%;
+    }
+    p{
+        font-size: 130%;
+    }
+    #IL{
+        width: 100%;
+        height: 400px;
+    }
+    #IG{
+            width: 15%;
+            height: 15%;
+    }
+    #IF{
+        width: 30%;
+        height: 25%;
+    }
+    #fofo{
+        #l{
+            margin-left: 31%;
+        }
+    }
+    #buton1{
+        margin-left: 270%;
+    }
+}
+@media screen and (max-width: 1600px) {
+    #Principal{
+        margin-left: 25%;
+    }
+    #História{
+        margin-left: 23%;
+    }
+    p{
+        font-size: 130%;
+    }
+    #IL{
+        width: 100%;
+        height: 300px;
+    }
+    #IG{
+            width: 20%;
+            height: 20%;
+    }
+    #IF{
+        width: 40%;
+        height: 40%;
+    }
+    #buton1{
+        margin-left: 220%;
+    }
+}
+@media screen and (max-width: 1400px) {
+    #buton1{
+        margin-left: 183%;
+    }
+    p{
+        font-size: 110%;
+    }
+    #IL{
+        width: 100%;
+        height: 300px;
+    }
+    #IG{
+            width: 30%;
+            height: 30%;
+    }
+    #IF{
+        width: 40%;
+        height: 40%;
+    }
+    
+}
+@media screen and (max-width: 1280px) {
+    #buton1{
+        margin-left: 210%;
+    }
+    p{
+        font-size: 110%;
+    }
+    #IL{
+        width: 100%;
+        height: 300px;
+    }
+    #IG{
+            width: 30%;
+            height: 30%;
+    }
+    #IF{
+        width: 40%;
+        height: 40%;
+    }
+    #fofo{
+        #l{
+            margin-left: 28%;
+        }
+    }
+}
+@media screen and (max-width: 1030px) {
+    #buton1{
+        margin-left: 76%;
+    }
+    p{
+        font-size: 110%;
+    }
+    #Principal{
+        margin-left: 13%;
+    }
+    #História{
+        margin-left: 11%;
+    }
+    #IL{
+        width: 100%;
+        height: 300px;
+    }
+    #IG{
+            width: 38%;
+            height: 240px;
+            margin-left: 27%;
+    }
+    #IF{
+        width: 45%;
+        height: 40%;
+    }
+    #fofo{
+        h4{
+        padding: 0%;
+        margin-left: 0%;
+    }
+    #l{
+        margin-left: 24%;
+    }
+}
+}
+@media screen and (max-width: 980px){
+     #buton1{
+        align-items: center;
+        margin-left: 225%;
+    }
+}
+@media screen and (max-width: 767px) {
+    #buton1{
+        margin-left: 137%;
+    }
+    p{
+        font-size: 110%;
+    }
+    #Principal{
+        text-align: center;
+        margin-left: 0%;
+    }
+    #História{
+        text-align: center;
+        margin-left: 0%;
+    }
+    #IL{
+        width: 100%;
+        height: 250px;
+    }
+    #IG{
+        width: 40%;
+        height: 200px;
+        margin-left: 29%;
+    }
+    #IF{
+        width: 82%;
+        height: 250px;
+        margin-left: 9%;
+    }
+    #fofo{
+        form{
+            margin-left: 35%;
+        }
+        #l{
+            margin-left: 16%;
+        }
+    }
+}
+@media screen and (max-width: 580px) {
+    #buton1{
+        margin-left: 130%;
+    }
+    #IL{
+        width: 100%;
+        height: 120px;
+    }
+    #fofo{
+        form{
+            margin-left: 28%;
+        }
+        #l{
+            margin-left: 4%;
+        }
+    }
+}
+@media screen and (max-width: 390px) {
+    #buton1{
+        margin-left: 70%;
+    }
+    #IL{
+        width: 100%;
+        height: 150px;
+    }
+    #IG{
+        width: 40%;
+        height: 150px;
+        margin-left: 29%;
+    }
+    #fofo{
+        form{
+            margin-left: 20%;
+        }
+        img{
+          width: 40%;
+          height: 40%;
+        }
+    }
+}
